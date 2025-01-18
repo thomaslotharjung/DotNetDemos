@@ -7,7 +7,7 @@
             Console.WriteLine("Starting Program....");
             Console.WriteLine("Calling long running operation....");
 
-            // Call the method that simulates an async operation, passing a deledaate (callback) to be called when the operation is complete
+            // Call the method that simulates an async operation, passing a delegate (callback) to be called when the operation is complete
             SimulateAsyncMethod(CallbackMethod);
 
             for (int i = 0; i < 5; i++)
